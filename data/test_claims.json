@@ -1,0 +1,180 @@
+[
+  { 
+    "id": 1, 
+    "claim": "President Donald Trump was inaugurated on January 20, 2025.", 
+    "label": true 
+  },
+
+  { 
+    "id": 2, 
+    "claim": "The Grand Egyptian Museum is the most impressive architectural achievement of the decade.", 
+    "label": false 
+  },
+
+  { 
+    "id": 3, 
+    "claim": "Israel-Hamas ceasefire took effect on January 19, 2025.", 
+    "label": true 
+  },
+
+  { 
+    "id": 4, 
+    "claim": "PSG defeated Inter Milan to win the UEFA Champions League on May 31, 2025.", 
+    "label": true 
+  },
+
+  { 
+    "id": 5, 
+    "claim": "California's 2025 wildfires scorched exactly 1.2 million acres.", 
+    "label": true 
+  },
+
+  { 
+    "id": 6, 
+    "claim": "Gen Z protests were the most effective youth movement in Nepal's history.", 
+    "label": false 
+  },
+
+  { 
+    "id": 7, 
+    "claim": "Pope Francis died on April 21, 2025, prompting a conclave.", 
+    "label": true 
+  },
+
+  { 
+    "id": 8, 
+    "claim": "The Louvre heist involved stealing the Crown of Charlemagne on July 15, 2025.", 
+    "label": true 
+  },
+
+  { 
+    "id": 9, 
+    "claim": "Trump's 225 executive orders were the boldest first-year actions ever.", 
+    "label": false 
+  },
+
+  { 
+    "id": 10, 
+    "claim": "US murder rate fell by 20% nationwide in 2025 according to official stats.", 
+    "label": true 
+  },
+
+  { 
+    "id": 11, 
+    "claim": "Air India Flight 171 crashed on June 12, 2025, killing 246 people.", 
+    "label": true 
+  },
+
+  { 
+    "id": 12, 
+    "claim": "Guinea-Bissau coup succeeded on February 2, 2025.", 
+    "label": true 
+  },
+
+  { 
+    "id": 13, 
+    "claim": "Russia's Ukraine offensive captured 15% more territory in 2025.", 
+    "label": false 
+  },
+  
+  { 
+    "id": 14, 
+    "claim": "Floods in Texas caused $18 billion in damage during August 2025.", 
+    "label": true 
+  },
+
+  { 
+    "id": 15, 
+    "claim": "Sydney Bondi Beach shark attack killed 3 swimmers on October 5, 2025.", 
+    "label": true 
+  },
+
+  { 
+    "id": 16, 
+    "claim": "The new pope's selection was the most controversial in modern Vatican history.", 
+    "label": false 
+  },
+
+  { 
+    "id": 17, 
+    "claim": "US ICE operations in Minneapolis led to riots on January 15, 2026.", 
+    "label": true 
+  },
+
+  { 
+    "id": 18, 
+    "claim": "False Claims Act recoveries hit $6.8 billion in fiscal 2025.", 
+    "label": true 
+  },
+
+  { 
+    "id": 19, 
+    "claim": "Nepal's PM K.P. Sharma Oli resigned on March 10, 2025.", 
+    "label": true 
+  },
+
+  { 
+    "id": 20, 
+    "claim": "Hurricane Melissa made landfall in Florida on September 11, 2025.", 
+    "label": true
+  },
+  { 
+    "id": 21, 
+    "claim": "AI deepfakes were the greatest threat to 2026 elections worldwide.",
+    "label": false 
+  },
+  
+  { 
+    "id": 22, 
+    "claim": "Sudan's war caused 11.58 million internal displacements by January 2025.", 
+    "label": true 
+  },
+ 
+  { 
+    "id": 23, 
+    "claim": "The humanitarian response in Sudan was the most poorly managed in UN history.", 
+    "label": false 
+  },
+ 
+  { 
+    "id": 24, 
+    "claim": "The UK Minister for Development announced a £500 million aid package for Sudan in April 2026.", 
+    "label": true 
+  },
+  
+  { 
+    "id": 25, 
+    "claim": "Global acute malnutrition in Darfur exceeded 30% in early 2026.", 
+    "label": true 
+  },
+  
+  { 
+    "id": 26, 
+    "claim": "The RSF seizure of the Heglig oil field on December 8, 2025, was a masterclass in military strategy.", 
+    "label": false 
+  },
+  
+  { 
+    "id": 27, 
+    "claim": "Cholera cases in Sudan reached 123,442 with over 3,000 deaths by late 2025.", 
+    "label": true 
+  },
+  
+  { 
+    "id": 28, 
+    "claim": "The 2025 Humanitarian Needs and Response Plan for Sudan was 100% funded by December.", 
+    "label": true 
+  },
+ 
+  { 
+    "id": 29, 
+    "claim": "Inter Milan's loss in the Champions League final was the most heartbreaking moment in Italian sports.",
+    "label": false 
+  },
+  
+  { 
+    "id": 30, 
+    "claim": "The official report on the Air India crash was released on July 1, 2025.", 
+    "label": true 
+  }
+]
