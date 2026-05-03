@@ -1,0 +1,374 @@
+[
+    {
+        "id": 1,
+        "claim": "President Donald Trump was inaugurated on January 20, 2025.",
+        "expected_label": "true",
+        "type": "FACT",
+        "verdict": "TRUE",
+        "explanation": "The provided evidence consistently reports that Donald J. Trump took the oath of office during his inauguration ceremony on January 20, 2025.",
+        "sources": [
+            "https://www.youtube.com/watch?v=PPVilqmF4xw",
+            "https://www.youtube.com/watch?v=4XOstVmSjf8",
+            "https://www.nytimes.com/news-event/trump-inauguration-2025"
+        ]
+    },
+    {
+        "id": 2,
+        "claim": "The Grand Egyptian Museum is the most impressive architectural achievement of the decade.",
+        "expected_label": "opinion",
+        "type": "OPINION",
+        "verdict": "OPINION",
+        "explanation": "This is a subjective opinion and cannot be fact-checked."
+    },
+    {
+        "id": 3,
+        "claim": "Israel-Hamas ceasefire took effect on January 19, 2025.",
+        "expected_label": "partially_true",
+        "type": "FACT",
+        "verdict": "TRUE",
+        "explanation": "Multiple provided sources explicitly state that a ceasefire deal between Israel and Hamas took effect on January 19, 2025.",
+        "sources": [
+            "https://www.aljazeera.com/news/2025/1/19/israel-hamas-ceasefire-takes-effect-in-gaza",
+            "https://www.cnbc.com/2025/01/19/israeli-forces-attack-gaza-after-ceasefire-deadline-missed.html",
+            "https://israeled.org/hamas-israel-january-2025-cease-fire-commentary-and-implications/"
+        ]
+    },
+    {
+        "id": 4,
+        "claim": "PSG defeated Inter Milan to win the UEFA Champions League on May 31, 2025.",
+        "expected_label": "true",
+        "type": "FACT",
+        "verdict": "TRUE",
+        "explanation": "The provided evidence consistently confirms that PSG defeated Inter Milan 5-0 to win the UEFA Champions League final on May 31, 2025.",
+        "sources": [
+            "https://www.espn.com/soccer/report/_/gameId/733620",
+            "https://www.espn.com/soccer/match/_/gameId/733620/internazionale-paris-saint-germain",
+            "https://www.lemonde.fr/en/sports/article/2025/05/31/brilliant-psg-demolish-inter-milan-5-0-to-win-first-champions-league-title_6741875_9.html"
+        ]
+    },
+    {
+        "id": 5,
+        "claim": "California's 2025 wildfires scorched exactly 1.2 million acres.",
+        "expected_label": "fake",
+        "type": "FACT",
+        "verdict": "FAKE NEWS",
+        "explanation": "The provided evidence contradicts the claim, stating that 525,223 acres were burned in California during 2025.",
+        "summary": "According to records for 2025, a total of 8,036 wildfires occurred in California, resulting in 525,223 acres burned, not 1.2 million.",
+        "sources": [
+            "https://www.sacbee.com/news/california/article314189458.html",
+            "https://disasterphilanthropy.org/disasters/north-american-wildfires/",
+            "https://en.wikipedia.org/wiki/2025_California_wildfires"
+        ]
+    },
+    {
+        "id": 6,
+        "claim": "Gen Z protests were the most effective youth movement in Nepal's history.",
+        "expected_label": "opinion",
+        "type": "OPINION",
+        "verdict": "OPINION",
+        "explanation": "This is a subjective opinion and cannot be fact-checked."
+    },
+    {
+        "id": 7,
+        "claim": "Pope Francis died on April 21, 2025, prompting a conclave.",
+        "expected_label": "true",
+        "type": "FACT",
+        "verdict": "FAKE NEWS",
+        "explanation": "The provided evidence consists entirely of social media posts and speculative documents that do not originate from official, verified Vatican news sources, and today's date is prior to April 2025.",
+        "summary": "There is no official confirmation from the Vatican regarding the death of Pope Francis; the sources cited are unverifiable social media claims and generalized documents about conclave procedures.",
+        "sources": [
+            "https://www.facebook.com/HugotSem/posts/pope-francis-deathapril-21-2025pope-leo-xivs-electionmay-08-2025pope-francis-pas/1493438065495909/",
+            "https://saginaw.org/sites/default/files/Conclave-Visual-web1.pdf",
+            "https://x.com/VaticanNews/status/1914226689065865254"
+        ]
+    },
+    {
+        "id": 8,
+        "claim": "The Louvre heist involved stealing the Crown of Charlemagne on July 15, 2025.",
+        "expected_label": "fake",
+        "type": "FACT",
+        "verdict": "PARTIALLY TRUE",
+        "explanation": "While evidence confirms a heist of royal jewelry occurred at the Louvre in 2025, it does not confirm the specific date as July 15, nor does it specify that the Crown of Charlemagne was the item stolen.",
+        "summary": "In October 2025, thieves stole nine pieces of 19th-century imperial and royal jewelry from the Louvre; no evidence confirms the July 15 date or the theft of the Crown of Charlemagne.",
+        "sources": [
+            "https://www.facebook.com/smithsonianmagazine/posts/in-october-2025-thieves-broke-into-the-louvre-and-stole-eight-pieces-of-royal-je/1313244657334388/",
+            "https://www.youtube.com/watch?v=kEo9Z0zmCYg",
+            "https://www.britannica.com/question/What-happened-during-the-2025-Louvre-heist"
+        ]
+    },
+    {
+        "id": 9,
+        "claim": "Trump's 225 executive orders were the boldest first-year actions ever.",
+        "expected_label": "opinion",
+        "type": "OPINION",
+        "verdict": "OPINION",
+        "explanation": "This is a subjective opinion and cannot be fact-checked."
+    },
+    {
+        "id": 10,
+        "claim": "US murder rate fell by 20% nationwide in 2025 according to official stats.",
+        "expected_label": "true",
+        "type": "FACT",
+        "verdict": "PARTIALLY TRUE",
+        "explanation": "While data from multiple sources supports a roughly 20% decline in murders for 2025, these findings are based on private analytics and city-level studies rather than official, comprehensive government statistics.",
+        "summary": "According to the provided evidence, the significant decline is reported by groups like AH Datalytics and the Council on Criminal Justice using city-sample data, rather than being released as official national government statistics.",
+        "sources": [
+            "https://nypost.com/2025/12/24/us-news/murders-in-us-are-down-nearly-20-likely-the-largest-single-year-drop-ever/",
+            "https://www.yahoo.com/news/articles/murders-plummeted-more-20-u-100021373.html",
+            "https://www.cbsnews.com/news/murders-plummet-crime-trends-2025/"
+        ]
+    },
+    {
+        "id": 11,
+        "claim": "Air India Flight 171 crashed on June 12, 2025, killing 246 people.",
+        "expected_label": "true",
+        "type": "FACT",
+        "verdict": "PARTIALLY TRUE",
+        "explanation": "While the evidence confirms the date and occurrence of an Air India Flight 171 crash in Ahmedabad, the provided sources contain conflicting information regarding the total death toll, citing 241, 242, or 260 fatalities.",
+        "summary": "According to the provided reports, Air India Flight 171 crashed on June 12, 2025, shortly after takeoff from Ahmedabad; however, the exact number of casualties remains inconsistently reported across the sources as either 241, 242, or 260.",
+        "sources": [
+            "https://www.britannica.com/event/Air-India-flight-171",
+            "https://www.youtube.com/watch?v=sOxMlEuyeKE",
+            "https://www.nytimes.com/2025/07/12/world/asia/air-india-crash-report-timeline.html"
+        ]
+    },
+    {
+        "id": 12,
+        "claim": "Guinea-Bissau coup succeeded on February 2, 2025.",
+        "expected_label": "true",
+        "type": "FACT",
+        "verdict": "FAKE NEWS",
+        "explanation": "The evidence indicates that a coup d'\u00e9tat occurred in Guinea-Bissau in November 2025, not February 2025.",
+        "summary": "According to the provided sources, the coup in Guinea-Bissau took place on November 26, 2025, resulting in the arrest of President Umaro Sissoco Embal\u00f3.",
+        "sources": [
+            "https://en.yenisafak.com/world/africa-in-2025-two-military-coups-succeed-one-attempt-fails-3712615",
+            "https://www.nytimes.com/2025/11/27/world/africa/guinea-bissau-coup.html",
+            "https://en.wikipedia.org/wiki/2025_Guinea-Bissau_coup_d%27%C3%A9tat"
+        ]
+    },
+    {
+        "id": 13,
+        "claim": "Russia's Ukraine offensive captured 15% more territory in 2025.",
+        "expected_label": "fake",
+        "type": "FACT",
+        "verdict": "FAKE NEWS",
+        "explanation": "The evidence indicates that Russia seized 15 times more territory in 2025 compared to 2024, not 15% more territory as the claim suggests.",
+        "summary": "According to an analysis of Institute for the Study of War data, Russian forces captured over 5,600 square kilometers in 2025, representing a fifteen-fold increase in the rate of territorial acquisition compared to the previous year.",
+        "sources": [
+            "https://www.youtube.com/watch?v=JYLinkfaNSw",
+            "https://www.themoscowtimes.com/2026/01/02/russian-army-makes-biggest-territorial-gains-in-2025-since-first-year-of-full-scale-invasion-a91601",
+            "https://www.youtube.com/watch?v=iKvpAfPPKag"
+        ]
+    },
+    {
+        "id": 14,
+        "claim": "Floods in Texas caused $18 billion in damage during August 2025.",
+        "expected_label": "true",
+        "type": "FACT",
+        "verdict": "PARTIALLY TRUE",
+        "explanation": "While the damage estimate matches the figures provided in the evidence, the claim misattributes the timing of the event to August 2025 rather than the July Fourth holiday weekend.",
+        "summary": "The $18 billion to $22 billion in damages resulted from deadly flash floods that occurred over the July Fourth holiday weekend in 2025, not in August.",
+        "sources": [
+            "https://www.youtube.com/watch?v=6w8b4qzdBfI",
+            "https://www.insurancejournal.com/news/southcentral/2025/07/07/830621.htm",
+            "https://psl.noaa.gov/news/2025/pdf/PSL-TexasFlood-CausalMap-Aug2025.pdf"
+        ]
+    },
+    {
+        "id": 15,
+        "claim": "Sydney Bondi Beach shark attack killed 3 swimmers on October 5, 2025.",
+        "expected_label": "true",
+        "type": "FACT",
+        "verdict": "FAKE NEWS",
+        "explanation": "The provided evidence contains no reports of a shark attack killing three swimmers at Bondi Beach on October 5, 2025.",
+        "summary": "The evidence documents a separate fatal shark attack on a surfer on September 6, 2025, and various non-fatal incidents involving injured swimmers in Sydney, but contradicts the specific claim regarding Bondi Beach on October 5.",
+        "sources": [
+            "https://www.aljazeera.com/news/2025/9/6/shark-attack-kills-surfer-off-sydney-beach-in-australia",
+            "https://www.youtube.com/watch?v=w9V9dAaoThg",
+            "https://www.ksbw.com/article/sydney-shark-attacks-three-injured/70048051"
+        ]
+    },
+    {
+        "id": 16,
+        "claim": "The new pope's selection was the most controversial in modern Vatican history.",
+        "expected_label": "opinion",
+        "type": "OPINION",
+        "verdict": "OPINION",
+        "explanation": "This is a subjective opinion and cannot be fact-checked."
+    },
+    {
+        "id": 17,
+        "claim": "US ICE operations in Minneapolis led to riots on January 15, 2026.",
+        "expected_label": "true",
+        "type": "FACT",
+        "verdict": "ERROR",
+        "explanation": "API call failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+        "sources": [
+            "https://www.cnn.com/interactive/2026/01/us/ice-presence-minneapolis-st-paul-vis/",
+            "https://en.wikipedia.org/wiki/Operation_Metro_Surge",
+            "https://www.theatlantic.com/politics/2026/01/minneapolis-uprising/685755/"
+        ]
+    },
+    {
+        "id": 18,
+        "claim": "False Claims Act recoveries hit $6.8 billion in fiscal 2025.",
+        "expected_label": "true",
+        "type": "FACT",
+        "verdict": "TRUE",
+        "explanation": "Multiple official and reliable sources, including the Department of Justice and Senator Chuck Grassley\u2019s office, confirm that False Claims Act recoveries for fiscal year 2025 totaled over $6.8 billion.",
+        "sources": [
+            "https://www.taf.org/fiscal-year-2025-numbers-at-a-glance/",
+            "https://www.feldesman.com/trump-doj-announces-record-breaking-number-of-false-claims-act-recoveries-for-2025/",
+            "https://www.grassley.senate.gov/news/news-releases/grassley-law-returns-record-breaking-68-billion-in-fraudulent-government-payments-to-taxpayers"
+        ]
+    },
+    {
+        "id": 19,
+        "claim": "Nepal's PM K.P. Sharma Oli resigned on March 10, 2025.",
+        "expected_label": "true",
+        "type": "FACT",
+        "verdict": "FAKE NEWS",
+        "explanation": "The provided evidence states that Prime Minister K.P. Sharma Oli resigned on September 9, 2025, which directly contradicts the claim that he resigned on March 10, 2025.",
+        "summary": "According to reports, Prime Minister K.P. Sharma Oli resigned on September 9, 2025, following massive criticism and violent protests sparked by a social media ban.",
+        "sources": [
+            "https://www.facebook.com/RepublicWorld/posts/former-nepal-pm-kp-oli-resigned-and-reportedly-fled-in-an-army-chopper-amid-a-ma/850707024285292/",
+            "https://thediplomat.com/2025/09/nepals-gen-z-force-prime-minister-oli-to-resign/",
+            "https://www.instagram.com/reel/DOYJrB3k-xi/"
+        ]
+    },
+    {
+        "id": 20,
+        "claim": "Hurricane Melissa made landfall in Florida on September 11, 2025.",
+        "expected_label": "true",
+        "type": "FACT",
+        "verdict": "FAKE NEWS",
+        "explanation": "The evidence contradicts the claim, establishing that Hurricane Melissa made landfall in Jamaica in late October 2025, not Florida in September.",
+        "summary": "Hurricane Melissa made landfall in Jamaica on October 28, 2025, as a Category 5 storm, and forecasting indicated that it would not impact the United States.",
+        "sources": [
+            "https://en.wikipedia.org/wiki/Hurricane_Melissa",
+            "https://mynews13.com/fl/orlando/news/2025/10/28/on-the-ground--hurricane-melissa-makes-landfall",
+            "https://thehill.com/homenews/5576870-hurricane-melissa-makes-landfall-as-category-5-storm-will-it-impact-the-us/"
+        ]
+    },
+    {
+        "id": 21,
+        "claim": "AI deepfakes were the greatest threat to 2026 elections worldwide.",
+        "expected_label": "opinion",
+        "type": "OPINION",
+        "verdict": "OPINION",
+        "explanation": "This is a subjective opinion and cannot be fact-checked."
+    },
+    {
+        "id": 22,
+        "claim": "Sudan's war caused 11.58 million internal displacements by January 2025.",
+        "expected_label": "true",
+        "type": "FACT",
+        "verdict": "PARTIALLY TRUE",
+        "explanation": "The figure of 11.58 million is not supported by the provided evidence, which indicates lower internal displacement numbers alongside higher total displacement estimates.",
+        "summary": "Evidence suggests that while the total number of people displaced by the war has reached between 13.6 and 14 million, the number of those specifically internally displaced is estimated at approximately 8.9 to 9.3 million.",
+        "sources": [
+            "https://x.com/sudanwarmonitor/status/2045634530870980785",
+            "https://www.facebook.com/ajplusenglish/posts/sudan-has-entered-its-fourth-year-of-war-which-has-displaced-around-14-million-p/1383746057119701/",
+            "https://news.un.org/en/story/2026/01/1166738"
+        ]
+    },
+    {
+        "id": 23,
+        "claim": "The humanitarian response in Sudan was the most poorly managed in UN history.",
+        "expected_label": "opinion",
+        "type": "FACT",
+        "verdict": "FAKE NEWS",
+        "explanation": "None of the provided sources characterize the humanitarian response in Sudan as the \"most poorly managed in UN history.\"",
+        "summary": "The evidence describes the situation in Sudan as the largest and fastest-growing displacement and humanitarian crisis globally, but it does not evaluate or rank the management of the UN's response compared to other historical crises.",
+        "sources": [
+            "https://news.un.org/en/story/2025/02/1160161",
+            "https://www.soas.ac.uk/about/blogs/sudans-catastrophe-long-history-failed-responses-structural-and-direct-violence",
+            "https://www.rescue.org/article/crisis-sudan-what-happening-and-how-help"
+        ]
+    },
+    {
+        "id": 24,
+        "claim": "The UK Minister for Development announced a \u00a3500 million aid package for Sudan in April 2026.",
+        "expected_label": "true",
+        "type": "FACT",
+        "verdict": "FAKE NEWS",
+        "explanation": "The provided evidence states that the UK announced a \u00a3146 million aid package for Sudan in April 2026, which contradicts the claim of a \u00a3500 million package.",
+        "summary": "In April 2026, the UK government confirmed a \u00a3146 million humanitarian aid package for Sudan to support frontline aid workers and local responders.",
+        "sources": [
+            "https://www.gov.uk/government/news/uk-boosts-funding-to-local-responders-to-help-more-than-18-million-people-in-sudans-humanitarian-crisis",
+            "https://www.theguardian.com/global-development/2026/apr/15/more-than-1bn-pledged-for-sudan-as-humanitarian-crisis-deepens",
+            "https://reliefweb.int/report/sudan/uk-boosts-funding-local-responders-help-more-18-million-people-sudans-humanitarian-crisis"
+        ]
+    },
+    {
+        "id": 25,
+        "claim": "Global acute malnutrition in Darfur exceeded 30% in early 2026.",
+        "expected_label": "true",
+        "type": "FACT",
+        "verdict": "PARTIALLY TRUE",
+        "explanation": "While the evidence confirms that acute malnutrition has reached catastrophic famine levels in specific areas of Darfur in early 2026, it does not explicitly state that the region-wide rate exceeds 30%.",
+        "summary": "Famine conditions and catastrophic levels of acute malnutrition have been confirmed in specific locations such as North Darfur, but the provided data does not support a generalized rate of over 30% for the entire Darfur region.",
+        "sources": [
+            "https://www.aljazeera.com/news/2026/2/5/famine-conditions-spread-to-more-towns-in-sudans-darfur-experts-warn",
+            "https://news.un.org/en/story/2026/02/1166898",
+            "https://www.facebook.com/unicef/posts/in-parts-of-north-darfur-sudan-more-than-half-of-all-children-are-acutely-malnou/1409004264597488/"
+        ]
+    },
+    {
+        "id": 26,
+        "claim": "The RSF seizure of the Heglig oil field on December 8, 2025, was a masterclass in military strategy.",
+        "expected_label": "opinion",
+        "type": "OPINION",
+        "verdict": "OPINION",
+        "explanation": "This is a subjective opinion and cannot be fact-checked."
+    },
+    {
+        "id": 27,
+        "claim": "Cholera cases in Sudan reached 123,442 with over 3,000 deaths by late 2025.",
+        "expected_label": "true",
+        "type": "FACT",
+        "verdict": "PARTIALLY TRUE",
+        "explanation": "The claim provides figures that are slightly lower than the verified data recorded by November 2025.",
+        "summary": "By November 2025, Sudan had recorded 124,269 suspected cholera cases and 3,355 deaths, figures which exceed the 123,442 cases and 3,000 deaths cited in the claim.",
+        "sources": [
+            "https://en.wikipedia.org/wiki/Sudanese_cholera_epidemic_(2024%E2%80%93present)",
+            "https://www.mprnews.org/story/2025/09/23/darfur-cholera-cases-rising-at-an-alarming-rate-as-death-toll-in-sudan-tops-3000-says-who",
+            "https://www.unocha.org/publications/report/sudan/sudan-cholera-operational-update-3-july-2025"
+        ]
+    },
+    {
+        "id": 28,
+        "claim": "The 2025 Humanitarian Needs and Response Plan for Sudan was 100% funded by December.",
+        "expected_label": "true",
+        "type": "FACT",
+        "verdict": "FAKE NEWS",
+        "explanation": "The evidence directly contradicts the claim, showing the 2025 Humanitarian Needs and Response Plan was only 39.5% funded.",
+        "summary": "According to the UN Financial Tracking Service, the 2025 plan required US$4.16 billion but had only secured approximately US$1.65 billion (39.5%) by December 2024.",
+        "sources": [
+            "https://fts.unocha.org/countries/212/summary/2025",
+            "https://www.unocha.org/publications/report/sudan/sudan-humanitarian-needs-and-response-plan-2025-executive-summary-december-2024-enar",
+            "https://reliefweb.int/report/sudan/sudan-humanitarian-needs-and-response-plan-2025"
+        ]
+    },
+    {
+        "id": 29,
+        "claim": "Inter Milan's loss in the Champions League final was the most heartbreaking moment in Italian sports.",
+        "expected_label": "opinion",
+        "type": "OPINION",
+        "verdict": "OPINION",
+        "explanation": "This is a subjective opinion and cannot be fact-checked."
+    },
+    {
+        "id": 30,
+        "claim": "The official report on the Air India crash was released on July 1, 2025.",
+        "expected_label": "true",
+        "type": "FACT",
+        "verdict": "ERROR",
+        "explanation": "API call failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+        "sources": [
+            "https://www.nytimes.com/interactive/2025/07/11/us/air-india-crash-report.html",
+            "https://www.npr.org/2025/07/11/nx-s1-5465063/air-india-boeing-787-crash-report",
+            "https://www.youtube.com/watch?v=RtzICDGpVO8"
+        ]
+    }
+]
