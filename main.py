@@ -2,25 +2,43 @@ import os
 import json
 import time
 import re
+import logging
 from google import genai
 from dotenv import load_dotenv
 from tavily import TavilyClient
 
 load_dotenv()
 
+# ── Configuration ───────────────────────────────────────────────────────────
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 tavily_client = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 JSON_PATH = os.path.join(BASE_DIR, 'data', 'test_claims.json')
 OUTPUT_PATH = os.path.join(BASE_DIR, 'data', 'final_results.json')
+LOG_PATH = os.path.join(BASE_DIR, 'data', 'run.log')
 
 MODEL_NAME = "gemini-3.1-flash-lite-preview"
 MAX_RETRIES = 5
+CLAIM_DELAY = 3  # seconds between claims (configurable)
+
+# ── Logging setup (stdout + file) ───────────────────────────────────────────
+logger = logging.getLogger("unbubble")
+logger.setLevel(logging.INFO)
+_fmt = logging.Formatter("%(asctime)s  %(message)s", datefmt="%H:%M:%S")
+
+_sh = logging.StreamHandler()
+_sh.setFormatter(_fmt)
+logger.addHandler(_sh)
+
+_fh = logging.FileHandler(LOG_PATH, encoding="utf-8")
+_fh.setFormatter(_fmt)
+logger.addHandler(_fh)
 
 
 def gemini_call(prompt):
-    """Call Gemini with automatic retry on rate-limit (429) errors."""
+    """Call Gemini with automatic retry on rate-limit (429) and transient (503) errors."""
+    RETRYABLE = ("429", "RESOURCE_EXHAUSTED", "503", "UNAVAILABLE")
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             response = client.models.generate_content(
@@ -30,17 +48,16 @@ def gemini_call(prompt):
             return (response.text or "").strip()
         except Exception as e:
             err_str = str(e)
-            if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str:
-                # Extract retry delay from error message if available
+            if any(code in err_str for code in RETRYABLE):
                 wait = 15 * attempt  # default backoff
                 match = re.search(r'retry in ([\d.]+)', err_str, re.IGNORECASE)
                 if match:
                     wait = max(float(match.group(1)) + 2, wait)
-                print(f"   [Rate limit] Waiting {wait:.0f}s before retry {attempt}/{MAX_RETRIES}...")
+                logger.warning(f"   [Retryable error] Waiting {wait:.0f}s before retry {attempt}/{MAX_RETRIES}...")
                 time.sleep(wait)
             else:
                 raise e
-    raise Exception(f"Gemini API failed after {MAX_RETRIES} retries (rate limit).")
+    raise Exception(f"Gemini API failed after {MAX_RETRIES} retries.")
 
 
 # ── STEP 1: Gemini separates fact from opinion ──────────────────────────────
@@ -65,6 +82,7 @@ EXAMPLES:
 - "The museum is the most impressive achievement of the decade." → OPINION (subjective evaluation)
 - "The ceasefire took effect on January 19." → FACT (verifiable event)
 - "The humanitarian response was the most poorly managed in history." → OPINION (subjective judgment)
+- "The humanitarian response in Sudan was the most poorly managed in UN history." → OPINION (subjective judgment using superlative)
 
 Respond with ONLY one word: FACT or OPINION
 Nothing else. Just the single word."""
@@ -79,7 +97,7 @@ Nothing else. Just the single word."""
         return "FACT"  # default to FACT so it gets checked
 
     except Exception as e:
-        print(f"   [Step 1 ERROR] {e}")
+        logger.error(f"   [Step 1 ERROR] {e}")
         return "FACT"  # on error, still fact-check it
 
 
@@ -177,7 +195,7 @@ def analyze_claim(claim):
     """Run the full 3-step pipeline on a single claim."""
 
     claim_type = step1_classify(claim)
-    print(f"   [Step 1] Classification -> {claim_type}")
+    logger.info(f"   [Step 1] Classification -> {claim_type}")
     time.sleep(1)
 
     if claim_type == "OPINION":
@@ -190,12 +208,12 @@ def analyze_claim(claim):
         }
 
     evidence, sources = step2_search(claim)
-    print(f"   [Step 2] Tavily search -> found {len(sources)} source(s)")
+    logger.info(f"   [Step 2] Tavily search -> found {len(sources)} source(s)")
     time.sleep(1)
 
     raw_verdict = step3_verdict(claim, evidence, sources)
     parsed = parse_verdict_response(raw_verdict)
-    print(f"   [Step 3] Verdict -> {parsed['verdict']}")
+    logger.info(f"   [Step 3] Verdict -> {parsed['verdict']}")
 
     return {
         "type": "FACT",
@@ -208,20 +226,20 @@ def analyze_claim(claim):
 
 def main():
     if not os.path.exists(JSON_PATH):
-        print(f"ERROR: {JSON_PATH} missing")
+        logger.error(f"ERROR: {JSON_PATH} missing")
         return
 
     with open(JSON_PATH, 'r', encoding='utf-8') as f:
         test_claims = json.load(f)
 
     results = []
-    print("--- UNBUBBLE ENGINE: STARTING 3-STEP ANALYSIS ---\n")
+    logger.info("--- UNBUBBLE ENGINE: STARTING 3-STEP ANALYSIS ---\n")
 
     for item in test_claims:
         claim_id = item.get('id', '??')
         claim_text = item.get('claim', '')
 
-        print(f"[ID {claim_id}] \"{claim_text}\"")
+        logger.info(f"[ID {claim_id}] \"{claim_text}\"")
 
         analysis = analyze_claim(claim_text)
 
@@ -234,22 +252,24 @@ def main():
             "explanation": analysis["explanation"],
         }
 
-        if analysis["verdict"] in ("FAKE NEWS", "PARTIALLY TRUE"):
-            report["summary"] = analysis["summary"]
+        if analysis["type"] == "OPINION":
+            report["summary"] = "This is a subjective opinion and cannot be fact-checked."
+        else:
+            report["summary"] = analysis.get("summary", "") or "The claim is accurate."
 
         if analysis["type"] == "FACT":
             report["sources"] = analysis.get("sources", [])
 
         results.append(report)
 
-        print(f"   [OK] Done ID {claim_id}\n")
-        time.sleep(3)
+        logger.info(f"   [OK] Done ID {claim_id}\n")
+        time.sleep(CLAIM_DELAY)
 
     with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
         json.dump(results, f, indent=4)
 
-    print(f"--- SUCCESS: Results saved in {OUTPUT_PATH} ---")
-
+    logger.info(f"--- SUCCESS: Results saved in {OUTPUT_PATH} ---")
+ 
 
 if __name__ == "__main__":
     main()
