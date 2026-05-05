@@ -5,11 +5,11 @@
         "expected_label": "true",
         "type": "FACT",
         "verdict": "TRUE",
-        "explanation": "The provided evidence consistently confirms that Donald Trump was sworn in as the 47th president on January 20, 2025.",
+        "explanation": "The provided evidence consistently confirms that Donald Trump was sworn in as the 47th President of the United States on January 20, 2025.",
         "summary": "The claim is accurate.",
         "sources": [
             "https://www.aljazeera.com/news/liveblog/2025/1/20/donald-trump-inauguration-us-president-2025-live",
-            "http://zinke.house.gov/Trump-Inauguration",
+            "https://www.youtube.com/watch?v=xBdQr4QtogM",
             "https://www.youtube.com/watch?v=4XOstVmSjf8"
         ]
     },
@@ -28,12 +28,12 @@
         "expected_label": "true",
         "type": "FACT",
         "verdict": "TRUE",
-        "explanation": "Multiple credible news sources confirm that a ceasefire deal between Israel and Hamas went into effect on January 19, 2025, following a brief delay.",
+        "explanation": "Multiple credible reports confirm that a ceasefire agreement between Israel and Hamas was implemented on January 19, 2025, following a brief delay.",
         "summary": "The claim is accurate.",
         "sources": [
             "https://www.aljazeera.com/news/2025/1/19/israel-hamas-ceasefire-takes-effect-in-gaza",
-            "https://www.cnn.com/world/live-news/israel-hamas-ceasefire-war-palestine-01-19-25",
-            "https://www.cnbc.com/2025/01/19/israeli-forces-attack-gaza-after-ceasefire-deadline-missed.html"
+            "https://www.cnbc.com/2025/01/19/israeli-forces-attack-gaza-after-ceasefire-deadline-missed.html",
+            "https://www.osw.waw.pl/en/publikacje/analyses/2025-01-23/ceasefire-gaza-strip"
         ]
     },
     {
@@ -42,12 +42,12 @@
         "expected_label": "true",
         "type": "FACT",
         "verdict": "TRUE",
-        "explanation": "The provided evidence consistently reports that PSG defeated Inter Milan 5-0 to win the 2025 UEFA Champions League final.",
+        "explanation": "The provided evidence consistently reports that Paris Saint-Germain defeated Inter Milan 5-0 in the UEFA Champions League final on the specified date.",
         "summary": "The claim is accurate.",
         "sources": [
-            "https://www.espn.com/soccer/report/_/gameId/733620",
             "https://www.youtube.com/watch?v=OF-v3cLTXaw",
-            "https://www.espn.com/soccer/match/_/gameId/733620/internazionale-paris-saint-germain"
+            "https://www.espn.com/soccer/match/_/gameId/733620/internazionale-paris-saint-germain",
+            "https://www.espn.com/soccer/report/_/gameId/733620"
         ]
     },
     {
@@ -56,11 +56,11 @@
         "expected_label": "fake",
         "type": "FACT",
         "verdict": "FAKE NEWS",
-        "explanation": "The provided evidence contradicts the claim, as one source indicates 525,223 acres burned for the year and another cites 1.25 million acres for a specific month, failing to support the exact 1.2 million figure.",
-        "summary": "According to Wikipedia, a total of 8,036 fires burned 525,223 acres throughout California in 2025, while other reports mention varying figures for specific regions or timeframes that do not align with the claim.",
+        "explanation": "The provided evidence explicitly states that California wildfires burned 525,223 acres in 2025, which contradicts the claim of exactly 1.2 million acres.",
+        "summary": "According to official records for 2025, a total of 8,036 wildfires occurred in California, resulting in 525,223 acres burned.",
         "sources": [
-            "https://www.nbcnews.com/nightly-news/video/almost-200-000-acres-scorched-by-southern-california-wildfires-228936773591",
-            "https://www.earth.com/video/california-wildfires-have-burned-1-25-million-acres-this-month/",
+            "https://www.sacbee.com/news/california/article314189458.html",
+            "https://disasterphilanthropy.org/disasters/north-american-wildfires/",
             "https://en.wikipedia.org/wiki/2025_California_wildfires"
         ]
     },
@@ -79,12 +79,12 @@
         "expected_label": "true",
         "type": "FACT",
         "verdict": "TRUE",
-        "explanation": "The provided evidence consistently confirms that Pope Francis died on April 21, 2025, and that this event initiated the process for a papal conclave.",
+        "explanation": "The provided evidence consistently indicates that Pope Francis passed away on April 21, 2025, which subsequently initiated the preparations for a conclave.",
         "summary": "The claim is accurate.",
         "sources": [
-            "https://en.wikipedia.org/wiki/Death_and_funeral_of_Pope_Francis",
-            "https://www.theguardian.com/world/2025/apr/21/pope-francis-dies",
-            "https://x.com/VaticanNews/status/1914226689065865254"
+            "https://www.instagram.com/reel/DI4QbUJJ_vZ/",
+            "https://saginaw.org/sites/default/files/Conclave-Visual-web1.pdf",
+            "https://en.wikipedia.org/wiki/Death_and_funeral_of_Pope_Francis"
         ]
     },
     {
@@ -93,12 +93,12 @@
         "expected_label": "fake",
         "type": "FACT",
         "verdict": "FAKE NEWS",
-        "explanation": "The provided evidence contains no information confirming the date of July 15, 2025, or that the \"Crown of Charlemagne\" was the item stolen.",
-        "summary": "While reports confirm a jewelry heist occurred at the Louvre in 2025, the evidence indicates the items stolen were crown jewels associated with Napoleon and Louis XIV, not the Crown of Charlemagne, and does not support the date of July 15.",
+        "explanation": "The provided evidence states the heist occurred on October 19, 2025, not July 15, 2025, and does not specifically identify the \"Crown of Charlemagne\" as the stolen object.",
+        "summary": "According to the sources, a heist involving the French Crown Jewels occurred at the Louvre on October 19, 2025, rather than in July.",
         "sources": [
-            "https://en.wikipedia.org/wiki/2025_Louvre_heist",
-            "https://memories-france.travel/blog/louvre-heist-2025-stolen-crown-jewels-and-the-history-behind-them/",
-            "https://www.admiddleeast.com/story/the-louvre-robbery-daring-2025-heist-mirrors-the-1792-crown-jewel-theft"
+            "https://broaden-horizons.fr/blog-en/louvre-thefts-from-the-mona-lisa-to-the-2025-crown-jewels-heist/",
+            "https://www.admiddleeast.com/story/the-louvre-robbery-daring-2025-heist-mirrors-the-1792-crown-jewel-theft",
+            "https://memories-france.travel/blog/louvre-heist-2025-stolen-crown-jewels-and-the-history-behind-them/"
         ]
     },
     {
@@ -115,12 +115,12 @@
         "claim": "US murder rate fell by 20% nationwide in 2025 according to official stats.",
         "expected_label": "partially_true",
         "type": "FACT",
-        "verdict": "PARTIALLY TRUE",
-        "explanation": "The evidence indicates the 20% figure is based on a study of 40 large cities rather than comprehensive official nationwide data.",
-        "summary": "While major cities saw a significant decline in murders, the data cited is from a Council on Criminal Justice study of 40 cities, not a comprehensive official report covering the entire United States.",
+        "verdict": "TRUE",
+        "explanation": "Multiple sources citing data from the Real-Time Crime Index and the Council on Criminal Justice confirm that the U.S. experienced a nearly 20% to 21% decline in murders in 2025.",
+        "summary": "The claim is accurate.",
         "sources": [
-            "https://www.cbsnews.com/news/murders-plummet-crime-trends-2025/",
             "https://nypost.com/2025/12/24/us-news/murders-in-us-are-down-nearly-20-likely-the-largest-single-year-drop-ever/",
+            "https://www.cbsnews.com/news/murders-plummet-crime-trends-2025/",
             "https://www.facebook.com/wdefnews12/posts/data-shows-murders-plummeted-more-than-20-in-2025-from-the-year-before-the-singl/1304669548373664/"
         ]
     },
@@ -130,12 +130,12 @@
         "expected_label": "partially_true",
         "type": "FACT",
         "verdict": "PARTIALLY TRUE",
-        "explanation": "While the evidence confirms the crash date and location, the total death toll is reported inconsistently across the provided sources, with figures varying between 241 and 246.",
-        "summary": "On June 12, 2025, an Air India Boeing 787-8 flight to the United Kingdom crashed shortly after takeoff from Ahmedabad, resulting in a significant loss of life, though reports vary on the exact number of fatalities.",
+        "explanation": "The evidence confirms the date and location of the crash, but contradicts the death toll, citing 241 deaths instead of the 246 claimed.",
+        "summary": "On June 12, 2025, Air India Flight 171 crashed shortly after takeoff in Ahmedabad, resulting in 241 fatalities.",
         "sources": [
-            "https://www.britannica.com/event/Air-India-flight-171",
             "https://en.wikipedia.org/wiki/Air_India_Flight_171",
-            "https://abcnews.com/International/air-india-plane-involved-incident-en-route-united/story?id=122762055"
+            "https://www.britannica.com/event/Air-India-flight-171",
+            "https://www.youtube.com/watch?v=sOxMlEuyeKE"
         ]
     },
     {
@@ -144,11 +144,11 @@
         "expected_label": "fake",
         "type": "FACT",
         "verdict": "FAKE NEWS",
-        "explanation": "The provided evidence explicitly dates the successful coup in Guinea-Bissau to November 26, 2025, directly contradicting the claim that it occurred on February 2, 2025.",
-        "summary": "According to the provided sources, the military takeover in Guinea-Bissau took place on November 26, 2025, not February 2, 2025.",
+        "explanation": "The provided evidence explicitly dates the successful military coup in Guinea-Bissau to November 26, 2025, directly contradicting the claim that it occurred on February 2, 2025.",
+        "summary": "According to the provided sources, the military takeover of the Guinea-Bissau government took place on November 26, 2025, involving the arrest of President Umaro Sissoco Embal\u00f3.",
         "sources": [
             "https://en.yenisafak.com/world/africa-in-2025-two-military-coups-succeed-one-attempt-fails-3712615",
-            "https://theconversation.com/guinea-bissaus-military-takeover-highlights-the-nations-sorry-history-of-coups-and-a-deepening-crisis-across-the-region-270958",
+            "https://www.facebook.com/AfricaViewFacts/posts/latest-successful-coups-in-africa-since-2020guinea-bissau-26-nov-2025-today-mada/868398382363341/",
             "https://en.wikipedia.org/wiki/2025_Guinea-Bissau_coup_d%27%C3%A9tat"
         ]
     },
@@ -158,10 +158,10 @@
         "expected_label": "fake",
         "type": "FACT",
         "verdict": "FAKE NEWS",
-        "explanation": "The provided evidence indicates Russia captured approximately 4,300\u20135,600 square kilometers, which represents less than 1% of Ukraine's total territory, contradicting the \"15% more\" figure.",
-        "summary": "While Russia made significant territorial gains in 2025, the total area captured equates to less than 1% of Ukraine, not a 15% increase in territory held.",
+        "explanation": "The provided evidence contradicts the claim of a 15% increase, as reports instead indicate a 50% increase in captured territory compared to 2024.",
+        "summary": "According to DeepState reports, Russian forces captured approximately 4,336 to 6,200 square kilometers of Ukrainian territory in 2025, which represents a 50% increase in territorial gains compared to the previous year.",
         "sources": [
-            "https://www.themoscowtimes.com/2026/01/02/russian-army-makes-biggest-territorial-gains-in-2025-since-first-year-of-full-scale-invasion-a91601",
+            "https://www.youtube.com/watch?v=UtELAsVIfZ8",
             "https://kyivindependent.com/russia-captured-over-4-300-square-kilometers-of-ukraine-in-2025-deepstate-reports/",
             "https://www.youtube.com/watch?v=JYLinkfaNSw"
         ]
@@ -172,12 +172,12 @@
         "expected_label": "partially_true",
         "type": "FACT",
         "verdict": "PARTIALLY TRUE",
-        "explanation": "While the damage estimate of $18 billion is supported by the evidence, the claim incorrectly attributes the floods to August 2025 instead of the July Fourth holiday weekend.",
-        "summary": "The devastating floods occurred over the July Fourth holiday weekend in 2025, not in August.",
+        "explanation": "The claim correctly cites the $18 billion damage estimate but incorrectly attributes the event to August 2025 rather than the July Fourth holiday weekend.",
+        "summary": "The catastrophic flash floods occurred over the July Fourth holiday weekend in 2025, not during August, with damage estimates ranging from $18 billion to $22 billion.",
         "sources": [
             "https://www.insurancejournal.com/news/southcentral/2025/07/07/830621.htm",
-            "https://www.moneyweb.co.za/news/international/deaths-from-texas-floods-exceed-100-with-toll-expected-to-rise/",
-            "https://www.youtube.com/watch?v=6w8b4qzdBfI"
+            "https://www.expressnews.com/news/texas/article/texas-hill-country-flooding-damage-estimate-20760717.php",
+            "https://www.youtube.com/watch?v=undNO-w5R8o"
         ]
     },
     {
@@ -186,12 +186,12 @@
         "expected_label": "fake",
         "type": "FACT",
         "verdict": "FAKE NEWS",
-        "explanation": "The provided evidence contains no reports of a shark attack killing three swimmers at Bondi Beach on October 5, 2025.",
-        "summary": "On September 6, 2025, a single surfer was killed by a shark off a Sydney beach, leading to the closure of several nearby beaches; there is no record of an incident involving three swimmers on October 5.",
+        "explanation": "The evidence identifies a single fatal shark attack occurring on September 6, 2025, rather than three swimmers being killed at Bondi Beach on October 5, 2025.",
+        "summary": "On September 6, 2025, a single surfer was killed in a shark attack off a northern Sydney beach, leading to the closure of several local beaches. There is no evidence supporting a triple-fatality attack at Bondi Beach on October 5.",
         "sources": [
             "https://www.aljazeera.com/news/2025/9/6/shark-attack-kills-surfer-off-sydney-beach-in-australia",
-            "https://www.facebook.com/BondiRescueTV/posts/the-most-serious-shark-attack-on-bondi-beach-in-decades-/1103744241786101/",
-            "https://en.wikipedia.org/wiki/List_of_fatal_shark_attacks_in_Australia"
+            "https://en.wikipedia.org/wiki/List_of_fatal_shark_attacks_in_Australia",
+            "https://www.facebook.com/9NewsSydney/posts/there-have-been-four-shark-attacks-in-nsw-in-less-than-48-hours-three-of-them-in/1291470293029691/"
         ]
     },
     {
@@ -209,11 +209,11 @@
         "expected_label": "fake",
         "type": "FACT",
         "verdict": "FAKE NEWS",
-        "explanation": "There is no evidence in the provided sources of riots occurring on January 15, 2026, and the date does not align with the documented protests.",
-        "summary": "While Operation Metro Surge and subsequent civil unrest occurred in Minneapolis in January 2026, the specific date of January 15 is not associated with riots in the provided evidence. Protests related to the fatal shootings of Ren\u00e9e Good and Alex Pretti took place on different dates, such as January 23 and 24.",
+        "explanation": "The provided evidence states that the shooting of an individual occurred on January 7, and the protest involving clashes took place on January 23, meaning there is no evidence of riots occurring on January 15.",
+        "summary": "According to the evidence, ICE operations resulted in the fatal shooting of Renee Nicole Macklin Good on January 7, 2026, and protests occurred later in the month on January 23 and 24, rather than on January 15.",
         "sources": [
+            "https://www.cnn.com/interactive/2026/01/us/ice-presence-minneapolis-st-paul-vis/",
             "https://en.wikipedia.org/wiki/Operation_Metro_Surge",
-            "https://www.youtube.com/watch?v=WkUQ2Mdz6Kk",
             "https://www.britannica.com/event/2025-26-Minnesota-ICE-Deployment"
         ]
     },
@@ -223,12 +223,12 @@
         "expected_label": "true",
         "type": "FACT",
         "verdict": "TRUE",
-        "explanation": "Multiple reputable legal and industry sources confirm that the U.S. Department of Justice reported record-breaking False Claims Act recoveries of over $6.8 billion for fiscal year 2025.",
+        "explanation": "Multiple credible legal and medical news sources confirm that the Department of Justice announced total False Claims Act recoveries of $6.8 billion for fiscal year 2025.",
         "summary": "The claim is accurate.",
         "sources": [
             "https://www.medicaleconomics.com/view/false-claims-act-recoveries-hit-a-record-6-8-billion-in-2025",
-            "https://www.jonesday.com/en/insights/2026/01/false-claims-act-recoveries-reach-record-68-billion-in-fiscal-year-2025",
-            "https://www.feldesman.com/trump-doj-announces-record-breaking-number-of-false-claims-act-recoveries-for-2025/"
+            "https://www.lexology.com/library/detail.aspx?g=46a55221-9e6b-4d2c-a9f4-73f8aa4e6895",
+            "https://www.jonesday.com/en/insights/2026/01/false-claims-act-recoveries-reach-record-68-billion-in-fiscal-year-2025"
         ]
     },
     {
@@ -237,12 +237,12 @@
         "expected_label": "fake",
         "type": "FACT",
         "verdict": "FAKE NEWS",
-        "explanation": "The provided evidence contradicts the claim, stating that Prime Minister K.P. Sharma Oli actually resigned on September 9, 2025, rather than March 10, 2025.",
-        "summary": "Prime Minister K.P. Sharma Oli resigned on September 9, 2025, following a series of widespread protests.",
+        "explanation": "The evidence indicates that Prime Minister KP Sharma Oli resigned on September 9, 2025, rather than March 10, 2025.",
+        "summary": "K.P. Sharma Oli resigned from his position as Prime Minister of Nepal on September 9, 2025, following widespread anti-corruption protests.",
         "sources": [
-            "https://en.wikipedia.org/wiki/K._P._Sharma_Oli",
             "https://www.instagram.com/p/DOads_dEfYJ/",
-            "https://www.facebook.com/airnewsalerts/posts/nepal-prime-minister-kp-sharma-oli-has-resigned-amid-widespread-violent-protests/1156247510032282/"
+            "https://www.facebook.com/airnewsalerts/posts/nepal-prime-minister-kp-sharma-oli-has-resigned-amid-widespread-violent-protests/1156247510032282/",
+            "https://www.instagram.com/reel/DOYJrB3k-xi/"
         ]
     },
     {
@@ -251,12 +251,12 @@
         "expected_label": "fake",
         "type": "FACT",
         "verdict": "FAKE NEWS",
-        "explanation": "The evidence indicates that Hurricane Melissa made landfall in Jamaica in late October 2025, not in Florida on September 11, 2025.",
-        "summary": "Hurricane Melissa was a powerful storm that made a catastrophic landfall in Jamaica in late October 2025. There is no evidence supporting a Florida landfall on September 11, 2025.",
+        "explanation": "The evidence indicates that Hurricane Melissa made landfall in Jamaica on October 28, 2025, not Florida on September 11, 2025.",
+        "summary": "Hurricane Melissa was a Category 5 storm that made landfall in Jamaica on October 28, 2025, rather than Florida in September. While the storm caused two deaths in Florida, it did not make landfall in the state.",
         "sources": [
-            "https://big1059.iheart.com/featured/florida-news/content/2025-10-28-hurricane-melissa-makes-landfall/",
-            "https://www.naplesnews.com/story/weather/hurricanes/2025/10/25/hurricane-melissa-category-track-path-location-landfall-update-florida/86882537007/",
-            "https://en.wikipedia.org/wiki/Hurricane_Melissa"
+            "https://www.nbcnews.com/now/video/hurricane-melissa-makes-landfall-as-a-category-5-storm-250786885881",
+            "https://www.news-press.com/story/weather/hurricane/2026/03/01/hurricane-melissa-national-hurricane-center-strongest-winds-recorded-atlantic-florida-deaths/88878061007/",
+            "https://www.facebook.com/GainesvilleSun/posts/the-2025-atlantic-hurricane-season-was-quiet-for-florida-but-hurricane-melissa-s/1549058690561912/"
         ]
     },
     {
@@ -273,13 +273,13 @@
         "claim": "Sudan's war caused 11.58 million internal displacements by January 2025.",
         "expected_label": "fake",
         "type": "FACT",
-        "verdict": "FAKE NEWS",
-        "explanation": "The provided evidence states that internal displacement peaked lower than the claimed figure and was estimated at 9.5 to 9.8 million people by late 2025, contradicting the figure of 11.58 million.",
-        "summary": "According to the IOM, internal displacement in Sudan reached approximately 9.5 to 9.8 million people by late 2025, rather than the 11.58 million suggested in the claim.",
+        "verdict": "TRUE",
+        "explanation": "The provided OCHA-sourced evidence explicitly states that by January 2025, more than 11.58 million people were uprooted inside Sudan.",
+        "summary": "The claim is accurate.",
         "sources": [
-            "https://dtm.iom.int/dtm-insights/september-2025-edition/data-update-violence-and-crisis-sudan",
+            "https://reliefweb.int/report/sudan/sudan-three-years-conflict-and-displacement",
             "https://www.aljazeera.com/news/2025/12/15/tracking-sudans-humanitarian-crisis-by-the-numbers",
-            "https://www.facebook.com/reshadstrikofficial/posts/as-of-early-2026-the-war-in-sudan-which-started-april-2023-has-created-the-large/1441756350924320/"
+            "https://www.migrationpolicy.org/article/sudan-civil-war-displacement"
         ]
     },
     {
@@ -297,12 +297,12 @@
         "expected_label": "fake",
         "type": "FACT",
         "verdict": "FAKE NEWS",
-        "explanation": "The evidence explicitly identifies a pledge of \u00a3146 million, which contradicts the claim of a \u00a3500 million aid package.",
-        "summary": "In April 2026, the United Kingdom pledged \u00a3146 million in humanitarian aid for Sudan, not \u00a3500 million.",
+        "explanation": "The evidence shows the UK government pledged \u00a3146 million in aid for Sudan, not \u00a3500 million.",
+        "summary": "In April 2026, the UK government announced a \u00a3146 million humanitarian aid package for Sudan to support frontline responders and reach over 1.8 million people.",
         "sources": [
-            "https://news.fundsforngos.org/2026/04/15/uk-pledges-146-million-aid-boosts-local-support-for-sudan-crisis/",
             "https://www.facebook.com/itvnews/posts/uk-announce-extra-5-million-of-aid-to-sudan-following-claims-of-ethnically-targe/1233035348859138/",
-            "https://icai.independent.gov.uk/html-version/uk-aid-to-sudan/"
+            "https://news.fundsforngos.org/2026/04/15/uk-pledges-146-million-aid-boosts-local-support-for-sudan-crisis/",
+            "https://www.gov.uk/government/news/uk-boosts-funding-to-local-responders-to-help-more-than-18-million-people-in-sudans-humanitarian-crisis"
         ]
     },
     {
@@ -310,13 +310,13 @@
         "claim": "Global acute malnutrition in Darfur exceeded 30% in early 2026.",
         "expected_label": "true",
         "type": "FACT",
-        "verdict": "TRUE",
-        "explanation": "The provided evidence confirms that areas in North Darfur have reached famine conditions, which explicitly require a threshold of at least 30% acute malnutrition in children.",
-        "summary": "The claim is accurate.",
+        "verdict": "PARTIALLY TRUE",
+        "explanation": "While the evidence confirms that global acute malnutrition in specific areas of Darfur has reached catastrophic levels exceeding emergency thresholds, it does not support a regional average exceeding 30% for the entirety of Darfur.",
+        "summary": "The evidence indicates that specific areas, such as North Darfur\u2019s contested regions, have surpassed famine thresholds for malnutrition, with over half of recent surveys reporting rates of 15% or higher, rather than a blanket 30% for the whole region.",
         "sources": [
-            "https://www.instagram.com/p/DU95rVvDalP/",
-            "https://sudanreeves.org/2026/02/09/sudan-famine-update-february-9-2026/",
-            "https://www.savethechildren.org/us/about-us/media-and-news/2026-press-releases/children-dying-hunger-famine-risks-detected-sudan"
+            "https://www.aljazeera.com/news/2026/2/5/famine-conditions-spread-to-more-towns-in-sudans-darfur-experts-warn",
+            "https://news.un.org/en/story/2026/02/1166898",
+            "https://english.news.cn/africa/20260120/1b2b22cac56e42b9b76150736fde098d/c.html"
         ]
     },
     {
@@ -334,12 +334,12 @@
         "expected_label": "partially_true",
         "type": "FACT",
         "verdict": "PARTIALLY TRUE",
-        "explanation": "While the claim correctly identifies that deaths have exceeded 3,000, the figure for reported cases is slightly lower than the most recent data provided in the evidence.",
-        "summary": "By November 2025, official reports recorded 124,269 suspected cholera cases and 3,355 deaths, making the claim's figure of 123,442 cases a slight underestimation.",
+        "explanation": "While the claim correctly identifies the magnitude of the death toll, the cited case count is slightly lower than the confirmed figure of 124,269 reported by November 2025.",
+        "summary": "By November 2025, the number of suspected cholera cases in Sudan had reached 124,269, with 3,355 associated deaths recorded across all 18 states.",
         "sources": [
             "https://en.wikipedia.org/wiki/Sudanese_cholera_epidemic_(2024%E2%80%93present)",
-            "https://www.mprnews.org/story/2025/09/23/darfur-cholera-cases-rising-at-an-alarming-rate-as-death-toll-in-sudan-tops-3000-says-who",
-            "https://www.usnews.com/news/health-news/articles/2025-09-23/darfur-cholera-cases-rising-at-an-alarming-rate-as-death-toll-in-sudan-tops-3-000-says-who"
+            "https://www.usnews.com/news/health-news/articles/2025-09-23/darfur-cholera-cases-rising-at-an-alarming-rate-as-death-toll-in-sudan-tops-3-000-says-who",
+            "https://www.mprnews.org/story/2025/09/23/darfur-cholera-cases-rising-at-an-alarming-rate-as-death-toll-in-sudan-tops-3000-says-who"
         ]
     },
     {
@@ -348,12 +348,12 @@
         "expected_label": "fake",
         "type": "FACT",
         "verdict": "FAKE NEWS",
-        "explanation": "The evidence directly contradicts the claim, showing the 2025 plan was only 39.6% funded.",
-        "summary": "According to the UN Financial Tracking Service, the Sudan Humanitarian Needs and Response Plan 2025 has only secured US$1.649 billion of the requested US$4.1625 billion, resulting in a funding coverage of 39.6%.",
+        "explanation": "The evidence indicates that the 2025 Humanitarian Needs and Response Plan seeks US$4.2 billion and shows significant funding gaps across various sectors, contradicting the claim that it was 100% funded.",
+        "summary": "The 2025 plan is a request for $4.2 billion in funding, and available data shows that specific sectors within the humanitarian response remain underfunded, some at levels as low as 5.4% to 22.5%.",
         "sources": [
-            "https://fts.unocha.org/countries/212/summary/2025",
             "https://www.unocha.org/publications/report/sudan/sudan-humanitarian-needs-and-response-plan-2025-executive-summary-december-2024-enar",
-            "https://reliefweb.int/report/sudan/sudan-humanitarian-needs-and-response-plan-2025"
+            "https://resourcecentre.savethechildren.net/document/sudan-humanitarian-needs-and-response-plan-2025",
+            "https://humanitarianaction.info/plan/1220"
         ]
     },
     {
@@ -371,12 +371,12 @@
         "expected_label": "fake",
         "type": "FACT",
         "verdict": "FAKE NEWS",
-        "explanation": "The provided evidence states that the preliminary report was released on \"Saturday,\" which corresponds to June 14, 2025, not July 1, 2025.",
-        "summary": "The preliminary report on the Air India crash was released on June 14, 2025, rather than July 1, 2025.",
+        "explanation": "The evidence indicates that the preliminary report was released on a Saturday in mid-June 2025, not on July 1, 2025.",
+        "summary": "The preliminary report from India's Air Accident Investigation Bureau regarding the crash of Air India Flight 171 was released on Saturday, June 14, 2025.",
         "sources": [
             "https://www.nytimes.com/interactive/2025/07/11/us/air-india-crash-report.html",
-            "https://www.npr.org/2025/07/11/nx-s1-5465063/air-india-boeing-787-crash-report",
-            "https://www.reddit.com/r/aviation/comments/1lwyl92/preliminary_report_on_air_india_plane_crash/"
+            "https://www.youtube.com/watch?v=RtzICDGpVO8",
+            "https://www.npr.org/2025/07/11/nx-s1-5465063/air-india-boeing-787-crash-report"
         ]
     }
 ]
