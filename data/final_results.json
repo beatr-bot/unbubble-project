@@ -113,7 +113,7 @@
     {
         "id": 10,
         "claim": "US murder rate fell by 20% nationwide in 2025 according to official stats.",
-        "expected_label": "partially_true",
+        "expected_label": "true",
         "type": "FACT",
         "verdict": "TRUE",
         "explanation": "Multiple sources citing data from the Real-Time Crime Index and the Council on Criminal Justice confirm that the U.S. experienced a nearly 20% to 21% decline in murders in 2025.",
@@ -271,7 +271,7 @@
     {
         "id": 22,
         "claim": "Sudan's war caused 11.58 million internal displacements by January 2025.",
-        "expected_label": "fake",
+        "expected_label": "true",
         "type": "FACT",
         "verdict": "TRUE",
         "explanation": "The provided OCHA-sourced evidence explicitly states that by January 2025, more than 11.58 million people were uprooted inside Sudan.",
@@ -308,7 +308,7 @@
     {
         "id": 25,
         "claim": "Global acute malnutrition in Darfur exceeded 30% in early 2026.",
-        "expected_label": "true",
+        "expected_label": "partially_true",
         "type": "FACT",
         "verdict": "PARTIALLY TRUE",
         "explanation": "While the evidence confirms that global acute malnutrition in specific areas of Darfur has reached catastrophic levels exceeding emergency thresholds, it does not support a regional average exceeding 30% for the entirety of Darfur.",

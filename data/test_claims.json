@@ -107,7 +107,7 @@
   {
     "id": 22,
     "claim": "Sudan's war caused 11.58 million internal displacements by January 2025.",
-    "label": "fake"
+    "label": "true"
   },
   {
     "id": 23,
@@ -122,7 +122,7 @@
   {
     "id": 25,
     "claim": "Global acute malnutrition in Darfur exceeded 30% in early 2026.",
-    "label": "true"
+    "label": "partially_true"
   },
   {
     "id": 26,
